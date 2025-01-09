@@ -12,3 +12,11 @@ template/fd/hqc192
 template/fd/hqc256
 template/mv/hqc192
 template/mv/hqc256
+try.py
+plot_template.ipynb
+src/create_template_tmp.py
+bin/create_template_tmp.sh
+bin/find_error_pattern_hqc128.sh
+bin/find_error_pattern_hqc192.sh
+bin/find_error_pattern_hqc256.sh
+.DS_Store
