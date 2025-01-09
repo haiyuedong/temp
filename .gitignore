@@ -1,0 +1,14 @@
+logs/*
+!logs/.gitkeep
+output/*
+!output/.gitkeep
+plots/*
+!plots/.gitkeep
+hqc192/
+hqc256
+temp/
+template_tmp/
+template/fd/hqc192
+template/fd/hqc256
+template/mv/hqc192
+template/mv/hqc256
