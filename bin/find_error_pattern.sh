@@ -1,5 +1,5 @@
 # Define the shared output file and error log
-OUTPUT_FILE=./output/mv_error_patterns.csv
+OUTPUT_FILE=./output/mv_error_patterns_hqc128.csv
 MVORFD=mv
 ERROR_LOG=./logs/error_log.txt
 
