@@ -1,7 +1,7 @@
 
 ### Overview
 
-The source code for finding patterns, creating templates, and simulating attacks is located in the `src/` folder.
+The source code for finding patterns, creating templates, and simulating attacks is located in the `src/` folder. The error patterns found and used for each scheme and oracle attack in the paper are located in the `data_input/` folder.
 
 ### Folder Structure
 
