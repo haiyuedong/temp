@@ -17,7 +17,7 @@ main folder/
 ├── output/
 ├── plots/
 ├── src/
-│   ├── find_error_pattern.py  # Script to identify error patterns
+│   ├── find_error_pattern.py  # Script to optimize error patterns
 │   ├── create_template.py     # Script to generate templates
 │   ├── simulate_attack.py     # Script to simulate attacks
 │   └── util.py                # Utility functions for the pipeline
