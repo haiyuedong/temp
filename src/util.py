@@ -32,20 +32,6 @@ def setup_logging(script,scheme,mvORfd):
     matplotlib_logger = logging.getLogger(matplotlib.__name__)
     matplotlib_logger.setLevel(logging.WARNING)
 
-
-def load_paper1_e(scheme):
-    file_path = f'./data_input/paper1_{scheme}.csv'  # Replace with your file path
-    
-    # Load and preprocess the data
-    df = pd.read_csv(file_path)
-    df = df[df['entropy'] >= 0.999]
-    #print(len(df))
-    df['vector'] = df['vector'].apply(lambda x: np.fromstring(x.strip("[]"), sep=' ', dtype=int))
-    list_of_vectors = list(df['vector'])
-    # randomly choose num_e
-    selected_vector = random.sample(list_of_vectors, 1) # randolmly choose one vector
-    return selected_vector
-
 def load_lib(lib_path):
     lib = ctypes.CDLL(lib_path)
     return lib
