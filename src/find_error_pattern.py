@@ -45,8 +45,6 @@ class ErrorPatternFinder(ABC):
                 writer.writerow([vectors, entropy])
 
     def find_optimal_error_pattern(self, num_generation, num_children, output_filepath):
-        # starting error pattern is drawn from error patterns in the first paper
-        # e_0 = load_paper1_e(scheme=self.scheme)
         
         # generate the starting e vector
         if self.scheme == 'hqc128':
